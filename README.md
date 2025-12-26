@@ -82,7 +82,7 @@ Implikasinya, analisis yang mengasumsikan distribusi normal (seperti uji *t* ata
 
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
-  - ![alt text]https://github.com/komang-arlan-airlangga/uas-project-Rstudio/blob/main/results/qqplot_Biaya_Akuisisi_Pelanggan_Juta_IDR.png
+  - ![alt text](https://github.com/komang-arlan-airlangga/uas-project-Rstudio/blob/main/results/qqplot_Biaya_Akuisisi_Pelanggan_Juta_IDR.png)
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
   - Pada Q–Q plot tersebut, titik-titik data tidak mengikuti garis lurus secara konsisten. Terlihat adanya pola melengkung, terutama pada bagian awal dan akhir, di mana titik-titik menjauh dari garis referensi. Hal ini menunjukkan bahwa data tidak berdistribusi normal.
   - Artinya, sebaran data memiliki penyimpangan dari normalitas, kemungkinan berupa kemencengan (skewness) atau adanya nilai ekstrem. Temuan ini sejalan dengan hasil uji normalitas sebelumnya yang menghasilkan p-value sangat kecil. Oleh karena itu, analisis statistik yang mengasumsikan distribusi normal sebaiknya dihindari atau data perlu ditransformasikan terlebih dahulu.
@@ -96,7 +96,7 @@ Implikasinya, analisis yang mengasumsikan distribusi normal (seperti uji *t* ata
 
 - **Visualisasi (Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
-  - ![alt text]https://github.com/komang-arlan-airlangga/uas-project-Rstudio/blob/main/results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png
+  - ![alt text](https://github.com/komang-arlan-airlangga/uas-project-Rstudio/blob/main/results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png)
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
   - Pola pada scatter plot **mendukung hasil koefisien korelasi** yang sangat tinggi. Titik-titik data terlihat membentuk **pola naik yang jelas**, di mana semakin besar pendapatan tahunan, semakin tinggi pula biaya akuisisi pelanggan. Sebagian besar titik mengikuti arah **garis tren linear**, menunjukkan hubungan yang kuat dan searah. Hal ini konsisten dengan nilai korelasi **(r = 0,996)**, sehingga dapat disimpulkan bahwa terdapat **hubungan positif yang sangat kuat** antara pendapatan tahunan dan biaya akuisisi pelanggan.
 
@@ -120,7 +120,7 @@ Implikasinya, analisis yang mengasumsikan distribusi normal (seperti uji *t* ata
 
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
-  - ![alt text]https://github.com/komang-arlan-airlangga/uas-project-Rstudio/blob/main/results/plot_regresi_Biaya_Akuisisi_Pelanggan_Juta_IDR_vs_Pendapatan_Tahunan_Miliar_IDR.png
+  - ![alt text](https://github.com/komang-arlan-airlangga/uas-project-Rstudio/blob/main/results/plot_regresi_Biaya_Akuisisi_Pelanggan_Juta_IDR_vs_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
   - Garis regresi pada grafik menunjukkan **hubungan linear yang sangat kuat dan searah** antara biaya akuisisi pelanggan dan pendapatan tahunan. Arah garis yang menanjak menandakan bahwa semakin besar biaya yang dikeluarkan untuk memperoleh pelanggan, semakin tinggi pula pendapatan tahunan yang dihasilkan.
   - Titik-titik data yang berada sangat dekat dengan garis regresi menunjukkan bahwa model mampu merepresentasikan hubungan antarvariabel dengan sangat baik. Hal ini sejalan dengan nilai **R-squared yang tinggi**, yang menandakan bahwa sebagian besar variasi pendapatan tahunan dapat dijelaskan oleh biaya akuisisi pelanggan. Secara keseluruhan, garis regresi ini menggambarkan bahwa perubahan pada biaya akuisisi pelanggan berpengaruh besar dan konsisten terhadap peningkatan pendapatan tahunan.
